@@ -235,22 +235,11 @@ require (
 )
 
 require (
-	github.com/gruntwork-io/terratest/internal/lib v0.0.0
-	github.com/gruntwork-io/terratest/modules/files v0.0.0
-	github.com/gruntwork-io/terratest/modules/logger v0.0.0
-	github.com/gruntwork-io/terratest/modules/random v0.0.0
-	github.com/gruntwork-io/terratest/modules/retry v0.0.0
-	github.com/gruntwork-io/terratest/modules/shell v0.0.0
-	github.com/gruntwork-io/terratest/modules/testing v0.0.0
-)
-
-replace (
-	github.com/gruntwork-io/terratest/internal/lib => ./internal/lib
-	github.com/gruntwork-io/terratest/modules/files => ./modules/files
-	github.com/gruntwork-io/terratest/modules/logger => ./modules/logger
-	github.com/gruntwork-io/terratest/modules/random => ./modules/random
-	github.com/gruntwork-io/terratest/modules/retry => ./modules/retry
-	github.com/gruntwork-io/terratest/modules/shell => ./modules/shell
-	github.com/gruntwork-io/terratest/modules/terragrunt => ./modules/terragrunt
-	github.com/gruntwork-io/terratest/modules/testing => ./modules/testing
+	github.com/gruntwork-io/terratest/internal/lib v1.0.0
+	github.com/gruntwork-io/terratest/modules/files v1.0.0
+	github.com/gruntwork-io/terratest/modules/logger v1.0.0
+	github.com/gruntwork-io/terratest/modules/random v1.0.0
+	github.com/gruntwork-io/terratest/modules/retry v1.0.0
+	github.com/gruntwork-io/terratest/modules/shell v1.0.0
+	github.com/gruntwork-io/terratest/modules/testing v1.0.0
 )
