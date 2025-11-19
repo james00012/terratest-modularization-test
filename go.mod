@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terratest
+module github.com/james00012/terratest-modularization-test
 
 go 1.24.0
 
@@ -31,12 +31,12 @@ require (
 	github.com/oracle/oci-go-sdk v7.1.0+incompatible
 	github.com/pquerna/otp v1.4.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	github.com/tmccombs/hcl2json v0.6.4
 	github.com/urfave/cli v1.22.16
 	github.com/zclconf/go-cty v1.15.0
-	golang.org/x/crypto v0.41.0
-	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/crypto v0.44.0
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.206.0
 	google.golang.org/genproto v0.0.0-20241113202542-65e8d215514f
@@ -210,13 +210,13 @@ require (
 	go.opentelemetry.io/otel/trace v1.29.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/mod v0.27.0 // indirect
-	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/sys v0.35.0 // indirect
-	golang.org/x/term v0.34.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.9.0 // indirect
-	golang.org/x/tools v0.36.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241104194629-dd2ea8efbc28 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241104194629-dd2ea8efbc28 // indirect
 	google.golang.org/grpc v1.67.1 // indirect
@@ -235,22 +235,22 @@ require (
 )
 
 require (
-	github.com/gruntwork-io/terratest/internal/lib v0.0.0
-	github.com/gruntwork-io/terratest/modules/files v0.0.0
-	github.com/gruntwork-io/terratest/modules/logger v0.0.0
-	github.com/gruntwork-io/terratest/modules/random v0.0.0
-	github.com/gruntwork-io/terratest/modules/retry v0.0.0
-	github.com/gruntwork-io/terratest/modules/shell v0.0.0
-	github.com/gruntwork-io/terratest/modules/testing v0.0.0
+	github.com/james00012/terratest-modularization-test/internal/lib v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/files v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/logger v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/random v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/retry v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/shell v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/testing v1.0.0
 )
 
 replace (
-	github.com/gruntwork-io/terratest/internal/lib => ./internal/lib
-	github.com/gruntwork-io/terratest/modules/files => ./modules/files
-	github.com/gruntwork-io/terratest/modules/logger => ./modules/logger
-	github.com/gruntwork-io/terratest/modules/random => ./modules/random
-	github.com/gruntwork-io/terratest/modules/retry => ./modules/retry
-	github.com/gruntwork-io/terratest/modules/shell => ./modules/shell
-	github.com/gruntwork-io/terratest/modules/terragrunt => ./modules/terragrunt
-	github.com/gruntwork-io/terratest/modules/testing => ./modules/testing
+	github.com/james00012/terratest-modularization-test/internal/lib => ./internal/lib
+	github.com/james00012/terratest-modularization-test/modules/files => ./modules/files
+	github.com/james00012/terratest-modularization-test/modules/logger => ./modules/logger
+	github.com/james00012/terratest-modularization-test/modules/random => ./modules/random
+	github.com/james00012/terratest-modularization-test/modules/retry => ./modules/retry
+	github.com/james00012/terratest-modularization-test/modules/shell => ./modules/shell
+	github.com/james00012/terratest-modularization-test/modules/terragrunt => ./modules/terragrunt
+	github.com/james00012/terratest-modularization-test/modules/testing => ./modules/testing
 )

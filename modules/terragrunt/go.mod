@@ -1,14 +1,14 @@
-module github.com/gruntwork-io/terratest/modules/terragrunt
+module github.com/james00012/terratest-modularization-test/modules/terragrunt
 
 go 1.24.0
 
 require (
-	github.com/gruntwork-io/terratest/internal/lib v0.0.0
-	github.com/gruntwork-io/terratest/modules/files v0.0.0
-	github.com/gruntwork-io/terratest/modules/logger v0.0.0
-	github.com/gruntwork-io/terratest/modules/retry v0.0.0
-	github.com/gruntwork-io/terratest/modules/shell v0.0.0
-	github.com/gruntwork-io/terratest/modules/testing v0.0.0
+	github.com/james00012/terratest-modularization-test/internal/lib v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/files v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/logger v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/retry v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/shell v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/testing v1.0.0
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -21,11 +21,11 @@ require (
 )
 
 replace (
-	github.com/gruntwork-io/terratest/internal/lib => ../../internal/lib
-	github.com/gruntwork-io/terratest/modules/files => ../files
-	github.com/gruntwork-io/terratest/modules/logger => ../logger
-	github.com/gruntwork-io/terratest/modules/random => ../random
-	github.com/gruntwork-io/terratest/modules/retry => ../retry
-	github.com/gruntwork-io/terratest/modules/shell => ../shell
-	github.com/gruntwork-io/terratest/modules/testing => ../testing
+	github.com/james00012/terratest-modularization-test/internal/lib => ../../internal/lib
+	github.com/james00012/terratest-modularization-test/modules/files => ../files
+	github.com/james00012/terratest-modularization-test/modules/logger => ../logger
+	github.com/james00012/terratest-modularization-test/modules/random => ../random
+	github.com/james00012/terratest-modularization-test/modules/retry => ../retry
+	github.com/james00012/terratest-modularization-test/modules/shell => ../shell
+	github.com/james00012/terratest-modularization-test/modules/testing => ../testing
 )
