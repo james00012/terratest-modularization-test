@@ -3,12 +3,12 @@ module github.com/gruntwork-io/terratest/modules/terragrunt
 go 1.24.0
 
 require (
-	github.com/gruntwork-io/terratest/internal/lib v0.0.0
-	github.com/gruntwork-io/terratest/modules/files v0.0.0
-	github.com/gruntwork-io/terratest/modules/logger v0.0.0
-	github.com/gruntwork-io/terratest/modules/retry v0.0.0
-	github.com/gruntwork-io/terratest/modules/shell v0.0.0
-	github.com/gruntwork-io/terratest/modules/testing v0.0.0
+	github.com/gruntwork-io/terratest/internal/lib v1.0.0
+	github.com/gruntwork-io/terratest/modules/files v1.0.0
+	github.com/gruntwork-io/terratest/modules/logger v1.0.0
+	github.com/gruntwork-io/terratest/modules/retry v1.0.0
+	github.com/gruntwork-io/terratest/modules/shell v1.0.0
+	github.com/gruntwork-io/terratest/modules/testing v1.0.0
 	github.com/stretchr/testify v1.11.1
 )
 
