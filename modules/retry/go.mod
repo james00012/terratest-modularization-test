@@ -1,10 +1,10 @@
-module github.com/gruntwork-io/terratest/modules/retry
+module github.com/james00012/terratest-modularization-test/modules/retry
 
 go 1.24.0
 
 require (
-	github.com/gruntwork-io/terratest/modules/logger v1.0.0
-	github.com/gruntwork-io/terratest/modules/testing v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/logger v1.0.0
+	github.com/james00012/terratest-modularization-test/modules/testing v1.0.0
 	github.com/stretchr/testify v1.11.1
 	golang.org/x/net v0.47.0
 )
@@ -17,6 +17,6 @@ require (
 )
 
 replace (
-	github.com/gruntwork-io/terratest/modules/logger => ../logger
-	github.com/gruntwork-io/terratest/modules/testing => ../testing
+	github.com/james00012/terratest-modularization-test/modules/logger => ../logger
+	github.com/james00012/terratest-modularization-test/modules/testing => ../testing
 )
