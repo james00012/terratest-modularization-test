@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/git"
+	"github.com/james00012/terratest-modularization-test/modules/files"
+	"github.com/james00012/terratest-modularization-test/modules/git"
 )
 
 // Test to make sure the DownloadPolicyE function returns a local path without processing it.
@@ -29,9 +29,9 @@ func TestDownloadPolicyDownloadsRemote(t *testing.T) {
 	t.Parallel()
 
 	curRef := git.GetCurrentGitRef(t)
-	baseDir := fmt.Sprintf("git::https://github.com/gruntwork-io/terratest.git?ref=%s", curRef)
+	baseDir := fmt.Sprintf("git::https://github.com/james00012/terratest-modularization-test.git?ref=%s", curRef)
 	localPath := "../../examples/terraform-opa-example/policy/enforce_source.rego"
-	remotePath := fmt.Sprintf("git::https://github.com/gruntwork-io/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=%s", curRef)
+	remotePath := fmt.Sprintf("git::https://github.com/james00012/terratest-modularization-test.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=%s", curRef)
 
 	// Make sure we clean up the downloaded file, while simultaneously asserting that the download dir was stored in the
 	// cache.
@@ -63,9 +63,9 @@ func TestDownloadPolicyDownloadsRemote(t *testing.T) {
 func TestDownloadPolicyReusesCachedDir(t *testing.T) {
 	t.Parallel()
 
-	baseDir := "git::https://github.com/gruntwork-io/terratest.git?ref=main"
-	remotePath := "git::https://github.com/gruntwork-io/terratest.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=main"
-	remotePathAltSubPath := "git::https://github.com/gruntwork-io/terratest.git//modules/opa/eval.go?ref=main"
+	baseDir := "git::https://github.com/james00012/terratest-modularization-test.git?ref=main"
+	remotePath := "git::https://github.com/james00012/terratest-modularization-test.git//examples/terraform-opa-example/policy/enforce_source.rego?ref=main"
+	remotePathAltSubPath := "git::https://github.com/james00012/terratest-modularization-test.git//modules/opa/eval.go?ref=main"
 
 	// Make sure we clean up the downloaded file, while simultaneously asserting that the download dir was stored in the
 	// cache.

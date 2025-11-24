@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
 )
 
 // Key concepts:

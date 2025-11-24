@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
+	http_helper "github.com/james00012/terratest-modularization-test/modules/http-helper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

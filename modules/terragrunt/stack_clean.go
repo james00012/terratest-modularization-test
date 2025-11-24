@@ -1,7 +1,7 @@
 package terragrunt
 
 import (
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // StackClean calls terragrunt stack clean to remove the .terragrunt-stack directory

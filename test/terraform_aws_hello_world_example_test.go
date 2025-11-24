@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	http_helper "github.com/gruntwork-io/terratest/modules/http-helper"
+	http_helper "github.com/james00012/terratest-modularization-test/modules/http-helper"
 
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
 )
 
 func TestTerraformAwsHelloWorldExample(t *testing.T) {

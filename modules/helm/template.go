@@ -11,8 +11,8 @@ import (
 
 	"github.com/gonvenience/ytbx"
 	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/files"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/homeport/dyff/pkg/dyff"
 	"github.com/stretchr/testify/require"
 	goyaml "gopkg.in/yaml.v3"
@@ -261,7 +261,7 @@ func UnmarshalK8SYamlE(t testing.TestingT, yamlData string, destinationObj inter
 
 // UpdateSnapshot creates or updates the k8s manifest snapshot of a chart (e.g bitnami/nginx).
 // It is one of the two functions needed to implement snapshot based testing for helm.
-// see https://github.com/gruntwork-io/terratest/issues/1377
+// see https://github.com/james00012/terratest-modularization-test/issues/1377
 // A snapshot is used to compare the current manifests of a chart with the previous manifests.
 // A global diff is run against the two snapshosts and the number of differences is returned.
 func UpdateSnapshot(t testing.TestingT, options *Options, yamlData string, releaseName string) {
@@ -270,7 +270,7 @@ func UpdateSnapshot(t testing.TestingT, options *Options, yamlData string, relea
 
 // UpdateSnapshotE creates or updates the k8s manifest snapshot of a chart (e.g bitnami/nginx).
 // It is one of the two functions needed to implement snapshot based testing for helm.
-// see https://github.com/gruntwork-io/terratest/issues/1377
+// see https://github.com/james00012/terratest-modularization-test/issues/1377
 // A snapshot is used to compare the current manifests of a chart with the previous manifests.
 // A global diff is run against the two snapshosts and the number of differences is returned.
 // It will failed the test if there is an error while writing the manifests' snapshot in the file system
@@ -308,7 +308,7 @@ func UpdateSnapshotE(t testing.TestingT, options *Options, yamlData string, rele
 
 // DiffAgainstSnapshot compare the current manifests of a chart (e.g bitnami/nginx)
 // with the previous manifests stored in the snapshot.
-// see https://github.com/gruntwork-io/terratest/issues/1377
+// see https://github.com/james00012/terratest-modularization-test/issues/1377
 // It returns the number of difference between the two manifests or -1 in case of error
 // It will fail the test if there is an error while reading or writing the two manifests in the file system
 func DiffAgainstSnapshot(t testing.TestingT, options *Options, yamlData string, releaseName string) int {
@@ -319,7 +319,7 @@ func DiffAgainstSnapshot(t testing.TestingT, options *Options, yamlData string, 
 
 // DiffAgainstSnapshotE compare the current manifests of a chart (e.g bitnami/nginx)
 // with the previous manifests stored in the snapshot.
-// see https://github.com/gruntwork-io/terratest/issues/1377
+// see https://github.com/james00012/terratest-modularization-test/issues/1377
 // It returns the number of difference between the manifests or -1 in case of error
 func DiffAgainstSnapshotE(t testing.TestingT, options *Options, yamlData string, releaseName string) (int, error) {
 

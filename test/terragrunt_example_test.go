@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
 	"github.com/stretchr/testify/assert"
 )
 

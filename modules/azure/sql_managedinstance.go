@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/Azure/azure-sdk-for-go/services/preview/sql/mgmt/v3.0/sql"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

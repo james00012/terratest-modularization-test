@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/james00012/terratest-modularization-test/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/shell"
 	"github.com/stretchr/testify/require"
 )
 

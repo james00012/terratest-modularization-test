@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ecr"
 	"github.com/aws/aws-sdk-go-v2/service/ecr/types"
 	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 
@@ -48,7 +48,7 @@ func GetECRRepoE(t testing.TestingT, region string, name string) (*types.Reposit
 		return nil, err
 	}
 	if len(resp.Repositories) != 1 {
-		return nil, errors.WithStackTrace(goerrors.New("an unexpected condition occurred. Please file an issue at github.com/gruntwork-io/terratest"))
+		return nil, errors.WithStackTrace(goerrors.New("an unexpected condition occurred. Please file an issue at github.com/james00012/terratest-modularization-test"))
 	}
 	return &resp.Repositories[0], nil
 }

@@ -4,8 +4,8 @@ import (
 	"slices"
 
 	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/shell"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // getCommonArgs extracts common helm options. In this case, these are:

@@ -10,9 +10,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/retry"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // ListPersistentVolumeClaims will look for PersistentVolumeClaims in the given namespace that match the given filters and return them. This will fail the

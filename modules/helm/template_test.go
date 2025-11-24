@@ -22,9 +22,9 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/k8s"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/random"
 )
 
 // Test that we can render locally a remote chart (e.g bitnami/nginx)

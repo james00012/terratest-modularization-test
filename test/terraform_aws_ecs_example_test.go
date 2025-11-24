@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/aws/aws-sdk-go-v2/service/ecs/types"
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/james00012/terratest-modularization-test/modules/aws"
+	"github.com/james00012/terratest-modularization-test/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
 
 	awsSDK "github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/stretchr/testify/assert"

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/retry"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/stretchr/testify/require"
 
 	batchv1 "k8s.io/api/batch/v1"

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/slack-go/slack"
 )
 

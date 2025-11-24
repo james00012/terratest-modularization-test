@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/gcp"
-	"github.com/gruntwork-io/terratest/modules/packer"
+	"github.com/james00012/terratest-modularization-test/modules/gcp"
+	"github.com/james00012/terratest-modularization-test/modules/packer"
 )
 
 // Occasionally, a Packer build may fail due to intermittent issues (e.g., brief network outage or EC2 issue). We try

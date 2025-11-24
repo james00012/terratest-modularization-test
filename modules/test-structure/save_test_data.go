@@ -6,14 +6,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/packer"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/aws"
+	"github.com/james00012/terratest-modularization-test/modules/files"
+	"github.com/james00012/terratest-modularization-test/modules/k8s"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/packer"
+	"github.com/james00012/terratest-modularization-test/modules/ssh"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

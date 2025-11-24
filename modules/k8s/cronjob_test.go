@@ -11,7 +11,7 @@ import (
 
 	batchv1 "k8s.io/api/batch/v1"
 
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/random"
 	"github.com/stretchr/testify/require"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

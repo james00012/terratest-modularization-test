@@ -10,12 +10,12 @@ import (
 
 	stdssh "golang.org/x/crypto/ssh"
 
-	"github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/ssh"
-	"github.com/gruntwork-io/terratest/modules/terraform"
-	test_structure "github.com/gruntwork-io/terratest/modules/test-structure"
+	"github.com/james00012/terratest-modularization-test/modules/aws"
+	"github.com/james00012/terratest-modularization-test/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/retry"
+	"github.com/james00012/terratest-modularization-test/modules/ssh"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
+	test_structure "github.com/james00012/terratest-modularization-test/modules/test-structure"
 	"github.com/stretchr/testify/require"
 )
 

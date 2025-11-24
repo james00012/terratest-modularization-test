@@ -3,7 +3,7 @@ package k8s
 import (
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	corev1 "k8s.io/api/core/v1"
 )
 

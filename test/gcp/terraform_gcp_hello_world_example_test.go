@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/gcp"
-	"github.com/gruntwork-io/terratest/modules/random"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/james00012/terratest-modularization-test/modules/gcp"
+	"github.com/james00012/terratest-modularization-test/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
 )
 
 func TestTerraformGcpHelloWorldExample(t *testing.T) {

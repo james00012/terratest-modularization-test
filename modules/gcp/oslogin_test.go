@@ -8,7 +8,7 @@ package gcp
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/ssh"
+	"github.com/james00012/terratest-modularization-test/modules/ssh"
 )
 
 func TestImportSSHKeyOSLogin(t *testing.T) {

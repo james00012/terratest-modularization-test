@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/james00012/terratest-modularization-test/modules/terraform"
 
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/shell"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/hashicorp/go-version"
 	"github.com/stretchr/testify/require"
 )

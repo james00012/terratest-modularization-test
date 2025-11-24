@@ -42,7 +42,7 @@ import (
 	"github.com/gruntwork-io/go-commons/entrypoint"
 	"github.com/gruntwork-io/go-commons/errors"
 	"github.com/gruntwork-io/go-commons/logging"
-	"github.com/gruntwork-io/terratest/modules/logger/parser"
+	"github.com/james00012/terratest-modularization-test/modules/logger/parser"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/gruntwork-io/go-commons/entrypoint"
-	"github.com/gruntwork-io/terratest/modules/aws"
+	"github.com/james00012/terratest-modularization-test/modules/aws"
 	"github.com/urfave/cli"
 )
 

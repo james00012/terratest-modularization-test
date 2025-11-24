@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/shell"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
 )

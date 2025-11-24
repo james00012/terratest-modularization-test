@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/shell"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // RunKubectl will call kubectl using the provided options and args, failing the test on error.

@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
-	terratest_aws "github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/packer"
-	"github.com/gruntwork-io/terratest/modules/random"
+	terratest_aws "github.com/james00012/terratest-modularization-test/modules/aws"
+	"github.com/james00012/terratest-modularization-test/modules/packer"
+	"github.com/james00012/terratest-modularization-test/modules/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

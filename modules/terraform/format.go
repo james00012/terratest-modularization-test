@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/internal/lib/formatting"
-	"github.com/gruntwork-io/terratest/modules/collections"
+	"github.com/james00012/terratest-modularization-test/internal/lib"
+	"github.com/james00012/terratest-modularization-test/modules/collections"
 )
 
 const runAllCmd = "run-all"

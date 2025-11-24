@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/acm"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // GetAcmCertificateArn gets the ACM certificate for the given domain name in the given region.

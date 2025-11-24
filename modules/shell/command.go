@@ -11,8 +11,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 
@@ -208,7 +208,7 @@ func readData(t testing.TestingT, log *logger.Logger, reader *bufio.Reader, writ
 		// interpreting any possible formatting characters in
 		// the line.
 		//
-		// See https://github.com/gruntwork-io/terratest/issues/982.
+		// See https://github.com/james00012/terratest-modularization-test/issues/982.
 		log.Logf(t, "%s", line)
 
 		if _, err := writer.WriteString(line); err != nil {

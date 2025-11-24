@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/iam"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

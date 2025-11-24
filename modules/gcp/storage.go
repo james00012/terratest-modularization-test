@@ -6,8 +6,8 @@ import (
 	"io"
 
 	"cloud.google.com/go/storage"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/logger"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 	"google.golang.org/api/iterator"
 )
 

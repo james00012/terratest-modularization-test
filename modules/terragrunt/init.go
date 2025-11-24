@@ -1,8 +1,8 @@
 package terragrunt
 
 import (
-	"github.com/gruntwork-io/terratest/internal/lib/formatting"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/internal/lib"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // Init calls terragrunt init and return stdout/stderr

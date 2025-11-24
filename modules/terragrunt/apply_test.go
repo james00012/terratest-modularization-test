@@ -3,7 +3,7 @@ package terragrunt
 import (
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
+	"github.com/james00012/terratest-modularization-test/modules/files"
 	"github.com/stretchr/testify/require"
 )
 

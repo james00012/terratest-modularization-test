@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/james00012/terratest-modularization-test/modules/testing"
 )
 
 // Output calls terragrunt stack output for the given variable and returns its value as a string

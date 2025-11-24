@@ -17,8 +17,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/james00012/terratest-modularization-test/modules/k8s"
+	"github.com/james00012/terratest-modularization-test/modules/random"
 )
 
 // An example of how to test the Kubernetes resource config in examples/kubernetes-kustomize-example using Terratest.
